@@ -1,13 +1,13 @@
 import tkinter as tk
 import tkinter.font as tkFont
 
-class Main_all_in_one:
+class App:
     def __init__(self, root):
         #setting title
-        root.title("All in One Installer")
+        root.title("All-In-One Installer")
         #setting window size
-        width=647
-        height=907
+        width=988
+        height=896
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
@@ -16,17 +16,17 @@ class Main_all_in_one:
 
         GButton_871=tk.Button(root)
         GButton_871["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='sego ui',size=18)
+        ft = tkFont.Font(family='Times',size=18)
         GButton_871["font"] = ft
         GButton_871["fg"] = "#000000"
         GButton_871["justify"] = "center"
         GButton_871["text"] = "Exit"
-        GButton_871.place(x=20,y=820,width=120,height=50)
+        GButton_871.place(x=30,y=820,width=120,height=50)
         GButton_871["command"] = self.GButton_871_command
 
         GButton_264=tk.Button(root)
         GButton_264["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='sego ui',size=18)
+        ft = tkFont.Font(family='Times',size=18)
         GButton_264["font"] = ft
         GButton_264["fg"] = "#000000"
         GButton_264["justify"] = "center"
@@ -36,26 +36,36 @@ class Main_all_in_one:
 
         GButton_52=tk.Button(root)
         GButton_52["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='sego ui',size=28)
+        ft = tkFont.Font(family='Times',size=28)
         GButton_52["font"] = ft
         GButton_52["fg"] = "#000000"
         GButton_52["justify"] = "center"
         GButton_52["text"] = "Home"
-        GButton_52.place(x=40,y=40,width=200,height=50)
+        GButton_52.place(x=50,y=60,width=200,height=50)
         GButton_52["command"] = self.GButton_52_command
 
         GButton_405=tk.Button(root)
         GButton_405["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='sego ui',size=28)
+        ft = tkFont.Font(family='Times',size=28)
         GButton_405["font"] = ft
         GButton_405["fg"] = "#000000"
         GButton_405["justify"] = "center"
         GButton_405["text"] = "Utility Softwares"
-        GButton_405.place(x=310,y=40,width=280,height=50)
+        GButton_405.place(x=300,y=60,width=280,height=50)
         GButton_405["command"] = self.GButton_405_command
 
+        GButton_362=tk.Button(root)
+        GButton_362["bg"] = "#e9e9ed"
+        ft = tkFont.Font(family='Times',size=28)
+        GButton_362["font"] = ft
+        GButton_362["fg"] = "#000000"
+        GButton_362["justify"] = "center"
+        GButton_362["text"] = "Entertainment"
+        GButton_362.place(x=640,y=60,width=274,height=50)
+        GButton_362["command"] = self.GButton_362_command
+
     def GButton_871_command(self):
-        root.destroy()
+        print("command")
 
 
     def GButton_264_command(self):
@@ -69,7 +79,11 @@ class Main_all_in_one:
     def GButton_405_command(self):
         print("command")
 
+
+    def GButton_362_command(self):
+        print("command")
+
 if __name__ == "__main__":
     root = tk.Tk()
-    app = Main_all_in_one(root)
+    app = App(root)
     root.mainloop()
