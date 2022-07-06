@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 
-class App:
+class Main_all_in_one:
     def __init__(self, root):
         #setting title
         root.title("All in One Installer")
@@ -71,5 +71,5 @@ class App:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = App(root)
+    app = Main_all_in_one(root)
     root.mainloop()
