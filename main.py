@@ -16,7 +16,7 @@ class App:
 
         GButton_871=tk.Button(root)
         GButton_871["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='Times',size=18)
+        ft = tkFont.Font(family='sego ui',size=18)
         GButton_871["font"] = ft
         GButton_871["fg"] = "#000000"
         GButton_871["justify"] = "center"
@@ -26,7 +26,7 @@ class App:
 
         GButton_264=tk.Button(root)
         GButton_264["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='Times',size=18)
+        ft = tkFont.Font(family='sego ui',size=18)
         GButton_264["font"] = ft
         GButton_264["fg"] = "#000000"
         GButton_264["justify"] = "center"
@@ -36,7 +36,7 @@ class App:
 
         GButton_52=tk.Button(root)
         GButton_52["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='Times',size=28)
+        ft = tkFont.Font(family='sego ui',size=28)
         GButton_52["font"] = ft
         GButton_52["fg"] = "#000000"
         GButton_52["justify"] = "center"
@@ -46,7 +46,7 @@ class App:
 
         GButton_405=tk.Button(root)
         GButton_405["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='Times',size=28)
+        ft = tkFont.Font(family='sego ui',size=28)
         GButton_405["font"] = ft
         GButton_405["fg"] = "#000000"
         GButton_405["justify"] = "center"
@@ -56,7 +56,7 @@ class App:
 
         GButton_362=tk.Button(root)
         GButton_362["bg"] = "#e9e9ed"
-        ft = tkFont.Font(family='Times',size=28)
+        ft = tkFont.Font(family='sego ui',size=28)
         GButton_362["font"] = ft
         GButton_362["fg"] = "#000000"
         GButton_362["justify"] = "center"
@@ -65,7 +65,7 @@ class App:
         GButton_362["command"] = self.GButton_362_command
 
     def GButton_871_command(self):
-        print("command")
+        root.destroy()
 
 
     def GButton_264_command(self):
