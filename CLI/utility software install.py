@@ -14,6 +14,7 @@ class App:
         alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
+        root.configure(bg='#1d1c1c')
 
         GButton_871=tk.Button(root)
         GButton_871["bg"] = "#84807f"
