@@ -80,7 +80,8 @@ def utility_installer():
             GLabel_176=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_176["font"] = ft
-            GLabel_176["fg"] = "#333333"
+            GLabel_176["fg"] = "#FFFFFF"
+            GLabel_176["bg"] = "#1d1c1c"
             GLabel_176["justify"] = "center"
             GLabel_176["text"] = "Git For Windows"
             GLabel_176.place(x=30,y=180,width=237,height=30)
@@ -88,7 +89,8 @@ def utility_installer():
             GLabel_4=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_4["font"] = ft
-            GLabel_4["fg"] = "#333333"
+            GLabel_4["fg"] = "#FFFFFF"
+            GLabel_4["bg"] = "#1d1c1c"
             GLabel_4["justify"] = "center"
             GLabel_4["text"] = "GitHub CLI"
             GLabel_4.place(x=280,y=180,width=170,height=35)
@@ -106,7 +108,8 @@ def utility_installer():
             GLabel_68=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_68["font"] = ft
-            GLabel_68["fg"] = "#333333"
+            GLabel_68["fg"] = "#FFFFFF"
+            GLabel_68["bg"] = "#1d1c1c"
             GLabel_68["justify"] = "center"
             GLabel_68["text"] = "Google Chrome"
             GLabel_68.place(x=490,y=180,width=195,height=30)
@@ -124,7 +127,8 @@ def utility_installer():
             GLabel_585=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_585["font"] = ft
-            GLabel_585["fg"] = "#333333"
+            GLabel_585["fg"] = "#FFFFFF"
+            GLabel_585["bg"] = "#1d1c1c"
             GLabel_585["justify"] = "center"
             GLabel_585["text"] = "Mozilla Firefox"
             GLabel_585.place(x=720,y=180,width=176,height=30)
@@ -142,7 +146,8 @@ def utility_installer():
             GLabel_543=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_543["font"] = ft
-            GLabel_543["fg"] = "#333333"
+            GLabel_543["fg"] = "#FFFFFF"
+            GLabel_543["bg"] = "#1d1c1c"
             GLabel_543["justify"] = "center"
             GLabel_543["text"] = "OBS Studio"
             GLabel_543.place(x=70,y=290,width=153,height=30)
@@ -160,7 +165,8 @@ def utility_installer():
             GLabel_227=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_227["font"] = ft
-            GLabel_227["fg"] = "#333333"
+            GLabel_227["fg"] = "#FFFFFF"
+            GLabel_227["bg"] = "#1d1c1c"
             GLabel_227["justify"] = "center"
             GLabel_227["text"] = "Zoom"
             GLabel_227.place(x=330,y=290,width=70,height=25)
@@ -188,7 +194,8 @@ def utility_installer():
             GLabel_772=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_772["font"] = ft
-            GLabel_772["fg"] = "#333333"
+            GLabel_772["fg"] = "#FFFFFF"
+            GLabel_772["bg"] = "#1d1c1c"
             GLabel_772["justify"] = "center"
             GLabel_772["text"] = "Brave Browser"
             GLabel_772.place(x=500,y=290,width=168,height=30)
@@ -196,7 +203,8 @@ def utility_installer():
             GLabel_773=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_773["font"] = ft
-            GLabel_773["fg"] = "#333333"
+            GLabel_773["fg"] = "#FFFFFF"
+            GLabel_773["bg"] = "#1d1c1c"
             GLabel_773["justify"] = "center"
             GLabel_773["text"] = "Notepad++"
             GLabel_773.place(x=750,y=290,width=155,height=30)
@@ -214,7 +222,8 @@ def utility_installer():
             GLabel_637=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_637["font"] = ft
-            GLabel_637["fg"] = "#333333"
+            GLabel_637["fg"] = "#FFFFFF"
+            GLabel_637["bg"] = "#1d1c1c"
             GLabel_637["justify"] = "center"
             GLabel_637["text"] = "WinRAR"
             GLabel_637.place(x=90,y=400,width=106,height=30)
@@ -242,7 +251,8 @@ def utility_installer():
             GLabel_798=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_798["font"] = ft
-            GLabel_798["fg"] = "#333333"
+            GLabel_798["fg"] = "#FFFFFF"
+            GLabel_798["bg"] = "#1d1c1c"
             GLabel_798["justify"] = "center"
             GLabel_798["text"] = "VS Code"
             GLabel_798.place(x=320,y=400,width=106,height=30)
@@ -250,7 +260,8 @@ def utility_installer():
             GLabel_746=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_746["font"] = ft
-            GLabel_746["fg"] = "#333333"
+            GLabel_746["fg"] = "#FFFFFF"
+            GLabel_746["bg"] = "#1d1c1c"
             GLabel_746["justify"] = "center"
             GLabel_746["text"] = "Discord"
             GLabel_746.place(x=520,y=400,width=139,height=30)
@@ -268,7 +279,8 @@ def utility_installer():
             GLabel_524=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_524["font"] = ft
-            GLabel_524["fg"] = "#333333"
+            GLabel_524["fg"] = "#FFFFFF"
+            GLabel_524["bg"] = "#1d1c1c"
             GLabel_524["justify"] = "center"
             GLabel_524["text"] = "Spotify"
             GLabel_524.place(x=750,y=400,width=120,height=30)
@@ -286,7 +298,8 @@ def utility_installer():
             GLabel_750=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_750["font"] = ft
-            GLabel_750["fg"] = "#333333"
+            GLabel_750["fg"] = "#FFFFFF"
+            GLabel_750["bg"] = "#1d1c1c"
             GLabel_750["justify"] = "center"
             GLabel_750["text"] = "AirDroid"
             GLabel_750.place(x=90,y=510,width=112,height=31)
@@ -304,7 +317,8 @@ def utility_installer():
             GLabel_866=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_866["font"] = ft
-            GLabel_866["fg"] = "#333333"
+            GLabel_866["fg"] = "#FFFFFF"
+            GLabel_866["bg"] = "#1d1c1c"
             GLabel_866["justify"] = "center"
             GLabel_866["text"] = "OneDrive"
             GLabel_866.place(x=310,y=510,width=106,height=30)
@@ -312,7 +326,8 @@ def utility_installer():
             GLabel_195=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_195["font"] = ft
-            GLabel_195["fg"] = "#333333"
+            GLabel_195["fg"] = "#FFFFFF"
+            GLabel_195["bg"] = "#1d1c1c"
             GLabel_195["justify"] = "center"
             GLabel_195["text"] = "Slack"
             GLabel_195.place(x=540,y=510,width=92,height=30)
@@ -320,7 +335,8 @@ def utility_installer():
             GLabel_485=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_485["font"] = ft
-            GLabel_485["fg"] = "#333333"
+            GLabel_485["fg"] = "#FFFFFF"
+            GLabel_485["bg"] = "#1d1c1c"
             GLabel_485["justify"] = "center"
             GLabel_485["text"] = "ShareX"
             GLabel_485.place(x=760,y=510,width=122,height=30)
@@ -358,7 +374,8 @@ def utility_installer():
             GLabel_87=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_87["font"] = ft
-            GLabel_87["fg"] = "#333333"
+            GLabel_87["fg"] = "#FFFFFF"
+            GLabel_87["bg"] = "#1d1c1c"
             GLabel_87["justify"] = "center"
             GLabel_87["text"] = "ExpressVPN"
             GLabel_87.place(x=80,y=620,width=142,height=30)
@@ -366,7 +383,8 @@ def utility_installer():
             GLabel_548=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_548["font"] = ft
-            GLabel_548["fg"] = "#333333"
+            GLabel_548["fg"] = "#FFFFFF"
+            GLabel_548["bg"] = "#1d1c1c"
             GLabel_548["justify"] = "center"
             GLabel_548["text"] = "GIMP"
             GLabel_548.place(x=290,y=620,width=143,height=30)
@@ -374,7 +392,8 @@ def utility_installer():
             GLabel_692=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_692["font"] = ft
-            GLabel_692["fg"] = "#333333"
+            GLabel_692["fg"] = "#FFFFFF"
+            GLabel_692["bg"] = "#1d1c1c"
             GLabel_692["justify"] = "center"
             GLabel_692["text"] = "EarTrumpet"
             GLabel_692.place(x=510,y=620,width=159,height=30)
@@ -382,7 +401,8 @@ def utility_installer():
             GLabel_747=tk.Label(root)
             ft = tkFont.Font(family='sego ui',size=18)
             GLabel_747["font"] = ft
-            GLabel_747["fg"] = "#333333"
+            GLabel_747["fg"] = "#FFFFFF"
+            GLabel_747["bg"] = "#1d1c1c"
             GLabel_747["justify"] = "center"
             GLabel_747["text"] = "VLC media player"
             GLabel_747.place(x=700,y=620,width=257,height=30)
@@ -529,3 +549,4 @@ def utility_installer():
         root = tk.Tk()
         app = App(root)
         root.mainloop()
+utility_installer()
