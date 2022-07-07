@@ -1,5 +1,6 @@
 import tkinter as tk
 import tkinter.font as tkFont
+import os
 
 class App:
     def __init__(self, root):
@@ -15,7 +16,7 @@ class App:
         root.resizable(width=False, height=False)
 
         GButton_871=tk.Button(root)
-        GButton_871["bg"] = "#e9e9ed"
+        GButton_871["bg"] = "#84807f"
         ft = tkFont.Font(family='sego ui',size=18)
         GButton_871["font"] = ft
         GButton_871["fg"] = "#000000"
@@ -25,7 +26,7 @@ class App:
         GButton_871["command"] = self.GButton_871_command
 
         GButton_264=tk.Button(root)
-        GButton_264["bg"] = "#e9e9ed"
+        GButton_264["bg"] = "#84807f"
         ft = tkFont.Font(family='sego ui',size=18)
         GButton_264["font"] = ft
         GButton_264["fg"] = "#000000"
@@ -429,99 +430,99 @@ class App:
 
 
     def GButton_264_command(self):
-        print("command")
+        print("update")
 
 
     def GButton_52_command(self):
-        print("command")
+        print("home")
 
 
     def GButton_405_command(self):
-        print("command")
+        print("utility softwares")
 
 
     def GButton_362_command(self):
-        print("command")
+        print("entertainment")
 
 
     def GButton_676_command(self):
-        print("command")
+        print("git for windows")
 
 
     def GButton_205_command(self):
-        print("command")
+        print("gh cli")
 
 
     def GButton_59_command(self):
-        print("command")
+        print("google chrome")
 
 
     def GButton_516_command(self):
-        print("command")
+        print("firefox")
 
 
     def GButton_183_command(self):
-        print("command")
+        print("obs")
 
 
     def GButton_486_command(self):
-        print("command")
+        print("zoom")
 
 
     def GButton_261_command(self):
-        print("command")
+        print("brave")
 
 
     def GButton_699_command(self):
-        print("command")
+        print("notepad++")
 
 
     def GButton_290_command(self):
-        print("command")
+        print("winrar")
 
 
     def GButton_647_command(self):
-        print("command")
+        print("VS code")
 
 
     def GButton_322_command(self):
-        print("command")
+        print("discord")
 
 
     def GButton_735_command(self):
-        print("command")
+        print("spotify")
 
 
     def GButton_285_command(self):
-        print("command")
+        print("airdroid")
 
 
     def GButton_527_command(self):
-        print("command")
+        print("onedrive")
 
 
     def GButton_392_command(self):
-        print("command")
+        print("slack")
 
 
     def GButton_278_command(self):
-        print("command")
+        print("sharex")
 
 
     def GButton_559_command(self):
-        print("command")
+        print("expressVPN")
 
 
     def GButton_636_command(self):
-        print("command")
+        print("gimp")
 
 
     def GButton_585_command(self):
-        print("command")
+        print("earTrumpet")
 
 
     def GButton_813_command(self):
-        print("command")
+        print("VLC player")
 
 if __name__ == "__main__":
     root = tk.Tk()
