@@ -446,83 +446,82 @@ class App:
 
 
     def GButton_676_command(self):
-        print("git for windows")
+        os.system('cmd /k "winget install --id=Git.Git  -e"')
 
 
     def GButton_205_command(self):
-        print("gh cli")
+        os.system('cmd /k "winget install --id=GitHub.cli  -e"')
 
 
     def GButton_59_command(self):
-        print("google chrome")
+        os.system('cmd /k "winget install --id=Google.Chrome  -e"')
 
 
     def GButton_516_command(self):
-        print("firefox")
+        os.system('cmd /k "winget install --id=Mozilla.Firefox  -e"')
 
 
     def GButton_183_command(self):
-        print("obs")
+        os.system('cmd /k "winget install --id=OBSProject.OBSStudio  -e"')
 
 
     def GButton_486_command(self):
-        print("zoom")
+        os.system('cmd /k "winget install --id=Zoom.Zoom  -e"')
 
 
     def GButton_261_command(self):
-        print("brave")
+        os.system('cmd /k "winget install --id=BraveSoftware.BraveBrowser  -e"')
 
 
     def GButton_699_command(self):
-        print("notepad++")
+        os.system('cmd /k "winget install --id=Notepad++.Notepad++  -e"')
 
 
     def GButton_290_command(self):
-        print("winrar")
+        os.system('cmd /k "winget install --id=RARLab.WinRAR  -e"')
 
 
     def GButton_647_command(self):
-        print("VS code")
+        os.system('cmd /k "winget install --id=Microsoft.VisualStudioCode  -e"')
 
 
     def GButton_322_command(self):
-        print("discord")
-
+        os.system('cmd /k "winget install --id=Discord.Discord  -e"')
 
     def GButton_735_command(self):
-        print("spotify")
+        os.system('cmd /k "winget install --id=Spotify.Spotify  -e"')
 
 
     def GButton_285_command(self):
-        print("airdroid")
+        os.system('cmd /k "winget install --id=AirDroid.AirDroid  -e"')
 
 
     def GButton_527_command(self):
-        print("onedrive")
+        os.system('cmd /k "winget install --id=Microsoft.OneDrive  -e"')
 
 
     def GButton_392_command(self):
-        print("slack")
+        os.system('cmd /k "winget install --id=SlackTechnologies.Slack  -e"')
 
 
     def GButton_278_command(self):
-        print("sharex")
+        os.system('cmd /k "winget install --id=ShareX.ShareX  -e"')
 
 
     def GButton_559_command(self):
-        print("expressVPN")
+        os.system('cmd /k "winget install --id=ExpressVPN.ExpressVPN  -e"')
 
 
     def GButton_636_command(self):
-        print("gimp")
+        os.system('cmd /k "winget install --id=GIMP.GIMP  -e"')
 
 
     def GButton_585_command(self):
-        print("earTrumpet")
+        os.system('cmd /k "winget install --id=File-New-Project.EarTrumpet  -e"')
 
 
     def GButton_813_command(self):
-        print("VLC player")
+        os.system('cmd /k "winget install --id=VideoLAN.VLC  -e"')
 
 if __name__ == "__main__":
     root = tk.Tk()
