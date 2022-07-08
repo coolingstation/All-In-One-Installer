@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 import tkinter.font as tkFont
 
@@ -450,99 +451,99 @@ class App:
 
 
     def GButton_264_command(self):
-        print("1")
+        print("update")
 
 
     def GButton_52_command(self):
-        print("2")
+        print("home")
 
 
     def GButton_405_command(self):
-        print("3")
+        print("us")
 
 
     def GButton_362_command(self):
-        print("4")
+        print("ent")
 
 
     def GButton_676_command(self):
-        print("5")
+        os.system('cmd /k "winget install --id=Mojang.MinecraftLauncher  -e"')
 
 
     def GButton_205_command(self):
-        print("6")
+        os.system('cmd /k "winget install --id=Valve.Steam  -e"')
 
 
     def GButton_59_command(self):
-        print("7")
+        os.system('cmd /k "winget install --id=SmartGameBooster.SmartGameBooster  -e"')
 
 
     def GButton_516_command(self):
-        print("8")
+        os.system('cmd /k "winget install --id=EpicGames.EpicGamesLauncher  -e"')
 
 
     def GButton_183_command(self):
-        print("9")
+        os.system('cmd /k "winget install --id=PvPLounge.PvPLounge  -e"')
 
 
     def GButton_486_command(self):
-        print("10")
+        os.system('cmd /k "winget install --id=Playnite.Playnite  -e"')
 
 
     def GButton_261_command(self):
-        print("11")
+        os.system('cmd /k "winget install --id=RiotGames.Valorant.AP  -e"')
 
 
     def GButton_699_command(self):
-        print("12")
+        os.system('cmd /k "winget install --id=BlueStack.BlueStacks  -e"')
 
 
     def GButton_290_command(self):
-        print("13")
+        os.system('cmd /k "winget install --id=Ubisoft.Connect  -e"')
 
 
     def GButton_647_command(self):
-        print("14")
+        os.system('cmd /k "winget install --id=Plex.Plex  -e"')
 
 
     def GButton_322_command(self):
-        print("15")
+        os.system('cmd /k "winget install --id=Gamecaster.Gamecaster  -e"')
 
 
     def GButton_735_command(self):
-        print("16")
+        os.system('cmd /k "winget install --id=Blitz.Blitz  -e"')
 
 
     def GButton_285_command(self):
-        print("17")
+        os.system('cmd /k "winget install --id=Corsair.iCUE.4  -e"')
 
 
     def GButton_527_command(self):
-        print("18")
+        os.system('cmd /k "winget install --id=ElectronicArts.EADesktop  -e"')
 
 
     def GButton_392_command(self):
-        print("19")
+        os.system('cmd /k "winget install --id=Moonsworth.LunarClient  -e"')
 
 
     def GButton_278_command(self):
-        print("20")
+        os.system('cmd /k "winget install --id=Badlion.BadlionClient  -e"')
 
 
     def GButton_559_command(self):
-        print("21")
+        os.system('cmd /k "winget install --id=Deezer.Deezer  -e"')
 
 
     def GButton_636_command(self):
-        print("22")
+        os.system('cmd /k "winget install --id=Twitch.Twitch  -e"')
 
 
     def GButton_585_command(self):
-        print("23")
+        os.system('cmd /k "winget install --id=GaijinNetwork.Crossout  -e"')
 
 
     def GButton_813_command(self):
-        print("24")
+        os.system('cmd /k "winget install --id=GorillaDevs.GDLauncher  -e"')
 
 if __name__ == "__main__":
     root = tk.Tk()
