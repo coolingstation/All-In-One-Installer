@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 import tkinter.font as tkFont
 
@@ -36,10 +37,10 @@ class App:
         GButton_264["command"] = self.GButton_264_command
 
         GButton_52=tk.Button(root)
-        GButton_52["bg"] = "#e9e9ed"
+        GButton_52["bg"] = "#000000"
         ft = tkFont.Font(family='sego ui',size=28)
         GButton_52["font"] = ft
-        GButton_52["fg"] = "#000000"
+        GButton_52["fg"] = "#FFFFFF"
         GButton_52["justify"] = "center"
         GButton_52["text"] = "Home"
         GButton_52.place(x=50,y=60,width=200,height=50)
@@ -171,39 +172,39 @@ class App:
 
 
     def GButton_362_command(self):
-        print("command")
+        print("ent")
 
 
     def GButton_676_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Mojang.MinecraftLauncher  -e"')
 
 
     def GButton_205_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=RiotGames.Valorant.AP  -e"')
 
 
     def GButton_59_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Zoom.Zoom  -e"')
 
 
     def GButton_516_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Spotify.Spotify  -e"')
 
 
     def GButton_183_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Moonsworth.LunarClient  -e"')
 
 
     def GButton_486_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Python.Python.3  -e"')
 
 
     def GButton_261_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Valve.Steam  -e"')
 
 
     def GButton_699_command(self):
-        print("command")
+        os.system('cmd /k "winget install --id=Google.Chrome  -e"')
 
 if __name__ == "__main__":
     root = tk.Tk()
