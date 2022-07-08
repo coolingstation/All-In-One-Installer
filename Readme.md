@@ -3,6 +3,8 @@
 
 [![Codacy Security Scan](https://github.com/matheesha-pathirana/All-In-One-Installer/actions/workflows/codacy.yml/badge.svg)](https://github.com/matheesha-pathirana/All-In-One-Installer/actions/workflows/codacy.yml)
 
+[![CodeQL](https://github.com/matheesha-pathirana/All-In-One-Installer/actions/workflows/codeql.yml/badge.svg)](https://github.com/matheesha-pathirana/All-In-One-Installer/actions/workflows/codeql.yml)
+
 The All In One Installer. You can use this software to install any software you like.
 
 
