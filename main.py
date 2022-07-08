@@ -538,7 +538,7 @@ def utility_installer():
     class App:
         def __init__(self, root):
             # setting title
-            root.title("Utility Softwares")
+            root.title("All-In-One Installer - Utility Softwares")
             # setting window size
             width = 988
             height = 896
