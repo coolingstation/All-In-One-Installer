@@ -36,6 +36,18 @@ To run this project run
 - Fullscreen mode
 - Cross platform
 
+## Screenshots
+
+### Home Menu
+![image](https://user-images.githubusercontent.com/66365654/179383639-05e7e637-5788-4a4b-b83d-bb92ae0bbf9f.png)
+
+### Utility Softwares
+![image](https://user-images.githubusercontent.com/66365654/179383677-a3e4910b-cb12-4a25-a3e8-94d5de7dd1d3.png)
+
+### Entertainment
+![image](https://user-images.githubusercontent.com/66365654/179383681-52331377-0e0b-48d0-a846-20017bb6cffe.png)
+
+
 
 ## Support
 
