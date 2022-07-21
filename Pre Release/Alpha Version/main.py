@@ -1,6 +1,5 @@
 import tkinter as tk
 import tkinter.font as tkFont
-import os
 
 class App:
     def __init__(self, root):
