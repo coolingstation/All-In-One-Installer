@@ -424,103 +424,128 @@ class App:
         GButton_813.place(x=740,y=670,width=150,height=40)
         GButton_813["command"] = self.GButton_813_command
 
-    def GButton_871_command(self):
+    @staticmethod
+    def GButton_871_command():
         root.destroy()
 
 
-    def GButton_264_command(self):
+    @staticmethod
+    def GButton_264_command():
         print("update")
 
 
-    def GButton_52_command(self):
+    @staticmethod
+    def GButton_52_command():
         print("home")
 
 
-    def GButton_405_command(self):
+    @staticmethod
+    def GButton_405_command():
         print("utility softwares")
 
 
-    def GButton_362_command(self):
+    @staticmethod
+    def GButton_362_command():
         print("entertainment")
 
 
-    def GButton_676_command(self):
+    @staticmethod
+    def GButton_676_command():
         print("git for windows")
 
 
-    def GButton_205_command(self):
+    @staticmethod
+    def GButton_205_command():
         print("gh cli")
 
 
-    def GButton_59_command(self):
+    @staticmethod
+    def GButton_59_command():
         print("google chrome")
 
 
-    def GButton_516_command(self):
+    @staticmethod
+    def GButton_516_command():
         print("firefox")
 
 
-    def GButton_183_command(self):
+    @staticmethod
+    def GButton_183_command():
         print("obs")
 
 
-    def GButton_486_command(self):
+    @staticmethod
+    def GButton_486_command():
         print("zoom")
 
 
-    def GButton_261_command(self):
+    @staticmethod
+    def GButton_261_command():
         print("brave")
 
 
-    def GButton_699_command(self):
+    @staticmethod
+    def GButton_699_command():
         print("notepad++")
 
 
-    def GButton_290_command(self):
+    @staticmethod
+    def GButton_290_command():
         print("winrar")
 
 
-    def GButton_647_command(self):
+    @staticmethod
+    def GButton_647_command():
         print("VS code")
 
 
-    def GButton_322_command(self):
+    @staticmethod
+    def GButton_322_command():
         print("discord")
 
 
-    def GButton_735_command(self):
+    @staticmethod
+    def GButton_735_command():
         print("spotify")
 
 
-    def GButton_285_command(self):
+    @staticmethod
+    def GButton_285_command():
         print("airdroid")
 
 
-    def GButton_527_command(self):
+    @staticmethod
+    def GButton_527_command():
         print("onedrive")
 
 
-    def GButton_392_command(self):
+    @staticmethod
+    def GButton_392_command():
         print("slack")
 
 
-    def GButton_278_command(self):
+    @staticmethod
+    def GButton_278_command():
         print("sharex")
 
 
-    def GButton_559_command(self):
+    @staticmethod
+    def GButton_559_command():
         print("expressVPN")
 
 
-    def GButton_636_command(self):
+    @staticmethod
+    def GButton_636_command():
         print("gimp")
 
 
-    def GButton_585_command(self):
+    @staticmethod
+    def GButton_585_command():
         print("earTrumpet")
 
 
-    def GButton_813_command(self):
+    @staticmethod
+    def GButton_813_command():
         print("VLC player")
 
 if __name__ == "__main__":

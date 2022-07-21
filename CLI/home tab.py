@@ -155,55 +155,68 @@ class App:
         GButton_699.place(x=740,y=330,width=180,height=65)
         GButton_699["command"] = self.GButton_699_command
 
-    def GButton_871_command(self):
+    @staticmethod
+    def GButton_871_command():
         root.destroy()
 
 
-    def GButton_264_command(self):
+    @staticmethod
+    def GButton_264_command():
         print("update")
 
 
-    def GButton_52_command(self):
+    @staticmethod
+    def GButton_52_command():
         print("home")
 
 
-    def GButton_405_command(self):
+    @staticmethod
+    def GButton_405_command():
         print("US")
 
 
-    def GButton_362_command(self):
+    @staticmethod
+    def GButton_362_command():
         print("ent")
 
 
-    def GButton_676_command(self):
+    @staticmethod
+    def GButton_676_command():
         os.system('cmd /k "winget install --id=Mojang.MinecraftLauncher  -e"')
 
 
-    def GButton_205_command(self):
+    @staticmethod
+    def GButton_205_command():
         os.system('cmd /k "winget install --id=RiotGames.Valorant.AP  -e"')
 
 
-    def GButton_59_command(self):
+    @staticmethod
+    def GButton_59_command():
         os.system('cmd /k "winget install --id=Zoom.Zoom  -e"')
 
 
-    def GButton_516_command(self):
+    @staticmethod
+    def GButton_516_command():
         os.system('cmd /k "winget install --id=Spotify.Spotify  -e"')
 
 
-    def GButton_183_command(self):
+    @staticmethod
+    def GButton_183_command():
         os.system('cmd /k "winget install --id=Moonsworth.LunarClient  -e"')
 
 
-    def GButton_486_command(self):
+    @staticmethod
+    def GButton_486_command():
         os.system('cmd /k "winget install --id=Python.Python.3  -e"')
 
 
-    def GButton_261_command(self):
+    @staticmethod
+    def GButton_261_command():
         os.system('cmd /k "winget install --id=Valve.Steam  -e"')
 
 
-    def GButton_699_command(self):
+    @staticmethod
+    def GButton_699_command():
         os.system('cmd /k "winget install --id=Google.Chrome  -e"')
 
 if __name__ == "__main__":

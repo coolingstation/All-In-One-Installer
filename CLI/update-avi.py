@@ -44,11 +44,13 @@ class App:
         GButton_523.place(x=320,y=240,width=180,height=60)
         GButton_523["command"] = self.GButton_523_command
 
-    def GButton_628_command(self):
+    @staticmethod
+    def GButton_628_command():
         print("updateing")
 
 
-    def GButton_523_command(self):
+    @staticmethod
+    def GButton_523_command():
         root.destroy()
 
 if __name__ == "__main__":

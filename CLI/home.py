@@ -65,23 +65,28 @@ class App:
         GButton_362.place(x=640,y=60,width=274,height=50)
         GButton_362["command"] = self.GButton_362_command
 
-    def GButton_871_command(self):
+    @staticmethod
+    def GButton_871_command():
         root.destroy()
 
 
-    def GButton_264_command(self):
+    @staticmethod
+    def GButton_264_command():
         print("command")
 
 
-    def GButton_52_command(self):
+    @staticmethod
+    def GButton_52_command():
         print("command")
 
 
-    def GButton_405_command(self):
+    @staticmethod
+    def GButton_405_command():
         print('US installer')
 
 
-    def GButton_362_command(self):
+    @staticmethod
+    def GButton_362_command():
         print("command")
 
 if __name__ == "__main__":
