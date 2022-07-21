@@ -426,102 +426,127 @@ class App:
         GButton_813.place(x=740,y=670,width=150,height=40)
         GButton_813["command"] = self.GButton_813_command
 
-    def GButton_871_command(self):
+    @staticmethod
+    def GButton_871_command():
         root.destroy()
 
 
-    def GButton_264_command(self):
+    @staticmethod
+    def GButton_264_command():
         print("update")
 
 
-    def GButton_52_command(self):
+    @staticmethod
+    def GButton_52_command():
         print("home")
 
 
-    def GButton_405_command(self):
+    @staticmethod
+    def GButton_405_command():
         print("utility softwares")
 
 
-    def GButton_362_command(self):
+    @staticmethod
+    def GButton_362_command():
         print("entertainment")
 
 
-    def GButton_676_command(self):
+    @staticmethod
+    def GButton_676_command():
         os.system('cmd /k "winget install --id=Git.Git  -e"')
 
 
-    def GButton_205_command(self):
+    @staticmethod
+    def GButton_205_command():
         os.system('cmd /k "winget install --id=GitHub.cli  -e"')
 
 
-    def GButton_59_command(self):
+    @staticmethod
+    def GButton_59_command():
         os.system('cmd /k "winget install --id=Google.Chrome  -e"')
 
 
-    def GButton_516_command(self):
+    @staticmethod
+    def GButton_516_command():
         os.system('cmd /k "winget install --id=Mozilla.Firefox  -e"')
 
 
-    def GButton_183_command(self):
+    @staticmethod
+    def GButton_183_command():
         os.system('cmd /k "winget install --id=OBSProject.OBSStudio  -e"')
 
 
-    def GButton_486_command(self):
+    @staticmethod
+    def GButton_486_command():
         os.system('cmd /k "winget install --id=Zoom.Zoom  -e"')
 
 
-    def GButton_261_command(self):
+    @staticmethod
+    def GButton_261_command():
         os.system('cmd /k "winget install --id=BraveSoftware.BraveBrowser  -e"')
 
 
-    def GButton_699_command(self):
+    @staticmethod
+    def GButton_699_command():
         os.system('cmd /k "winget install --id=Notepad++.Notepad++  -e"')
 
 
-    def GButton_290_command(self):
+    @staticmethod
+    def GButton_290_command():
         os.system('cmd /k "winget install --id=RARLab.WinRAR  -e"')
 
 
-    def GButton_647_command(self):
+    @staticmethod
+    def GButton_647_command():
         os.system('cmd /k "winget install --id=Microsoft.VisualStudioCode  -e"')
 
 
-    def GButton_322_command(self):
+    @staticmethod
+    def GButton_322_command():
         os.system('cmd /k "winget install --id=Discord.Discord  -e"')
 
-    def GButton_735_command(self):
+    @staticmethod
+    def GButton_735_command():
         os.system('cmd /k "winget install --id=Spotify.Spotify  -e"')
 
 
-    def GButton_285_command(self):
+    @staticmethod
+    def GButton_285_command():
         os.system('cmd /k "winget install --id=AirDroid.AirDroid  -e"')
 
 
-    def GButton_527_command(self):
+    @staticmethod
+    def GButton_527_command():
         os.system('cmd /k "winget install --id=Microsoft.OneDrive  -e"')
 
 
-    def GButton_392_command(self):
+    @staticmethod
+    def GButton_392_command():
         os.system('cmd /k "winget install --id=SlackTechnologies.Slack  -e"')
 
 
-    def GButton_278_command(self):
+    @staticmethod
+    def GButton_278_command():
         os.system('cmd /k "winget install --id=ShareX.ShareX  -e"')
 
 
-    def GButton_559_command(self):
+    @staticmethod
+    def GButton_559_command():
         os.system('cmd /k "winget install --id=ExpressVPN.ExpressVPN  -e"')
 
 
-    def GButton_636_command(self):
+    @staticmethod
+    def GButton_636_command():
         os.system('cmd /k "winget install --id=GIMP.GIMP  -e"')
 
 
-    def GButton_585_command(self):
+    @staticmethod
+    def GButton_585_command():
         os.system('cmd /k "winget install --id=File-New-Project.EarTrumpet  -e"')
 
 
-    def GButton_813_command(self):
+    @staticmethod
+    def GButton_813_command():
         os.system('cmd /k "winget install --id=VideoLAN.VLC  -e"')
 
 if __name__ == "__main__":

@@ -34,7 +34,8 @@ class App:
         GButton_628.place(x=170,y=200,width=251,height=90)
         GButton_628["command"] = self.GButton_628_command
 
-    def GButton_628_command(self):
+    @staticmethod
+    def GButton_628_command():
         root.destroy()
 
 if __name__ == "__main__":
